@@ -3,128 +3,127 @@ package Model;
 import java.sql.Time;
 import java.sql.Timestamp;
 
-
 public class Movie {
 
-    private Integer id;
-    private String name;
-    private String director;
-    private String actors;
-    private Integer categoryId;
-    private String content;
-    private Integer rate;
-    private Time duration;
-    private String eposide;
-    private Timestamp releaseDate;
-    private String image;
-    private String teaser;
-    private Timestamp createdAt;
+	private Integer id;
+	private String name;
+	private String director;
+	private String actors;
+	private Integer categoryId;
+	private String content;
+	private Integer rate;
+	private Time duration;
+	private String eposide;
+	private Timestamp releaseDate;
+	private String image;
+	private String teaser;
+	private Timestamp createdAt;
 
-    public Movie() {
-    	
-    }
-    public int getId() {
-        return id;
-    }
+	public Movie() {
 
-    public void setId(int id) {
-        this.id = id;
-    }
+	}
 
-    public String getName() {
-        return name;
-    }
+	public int getId() {
+		return id;
+	}
 
-    public void setName(String name) {
-        this.name = name;
-    }
+	public void setId(int id) {
+		this.id = id;
+	}
 
-    public String getDirector() {
-        return director;
-    }
+	public String getName() {
+		return name;
+	}
 
-    public void setDirector(String director) {
-        this.director = director;
-    }
+	public void setName(String name) {
+		this.name = name;
+	}
 
-    public String getActors() {
-        return actors;
-    }
+	public String getDirector() {
+		return director;
+	}
 
-    public void setActors(String actors) {
-        this.actors = actors;
-    }
+	public void setDirector(String director) {
+		this.director = director;
+	}
 
-    public int getCategoryId() {
-        return categoryId;
-    }
+	public String getActors() {
+		return actors;
+	}
 
-    public void setCategoryId(int categoryId) {
-        this.categoryId = categoryId;
-    }
+	public void setActors(String actors) {
+		this.actors = actors;
+	}
 
-    public String getContent() {
-        return content;
-    }
+	public int getCategoryId() {
+		return categoryId;
+	}
 
-    public void setContent(String content) {
-        this.content = content;
-    }
+	public void setCategoryId(int categoryId) {
+		this.categoryId = categoryId;
+	}
 
-    public int getRate() {
-        return rate;
-    }
+	public String getContent() {
+		return content;
+	}
 
-    public void setRate(int rate) {
-        this.rate = rate;
-    }
+	public void setContent(String content) {
+		this.content = content;
+	}
 
-    public Time getDuration() {
-        return duration;
-    }
+	public int getRate() {
+		return rate;
+	}
 
-    public void setDuration(Time duration) {
-        this.duration = duration;
-    }
+	public void setRate(int rate) {
+		this.rate = rate;
+	}
 
-    public String getEposide() {
-        return eposide;
-    }
+	public Time getDuration() {
+		return duration;
+	}
 
-    public void setEposide(String eposide) {
-        this.eposide = eposide;
-    }
+	public void setDuration(Time duration) {
+		this.duration = duration;
+	}
 
-    public Timestamp getReleaseDate() {
-        return releaseDate;
-    }
+	public String getEposide() {
+		return eposide;
+	}
 
-    public void setReleaseDate(Timestamp releaseDate) {
-        this.releaseDate = releaseDate;
-    }
+	public void setEposide(String eposide) {
+		this.eposide = eposide;
+	}
 
-    public String getImage() {
-        return image;
-    }
+	public Timestamp getReleaseDate() {
+		return releaseDate;
+	}
 
-    public void setImage(String image) {
-        this.image = image;
-    }
+	public void setReleaseDate(Timestamp releaseDate) {
+		this.releaseDate = releaseDate;
+	}
 
-    public String getTeaser() {
-        return teaser;
-    }
+	public String getImage() {
+		return image;
+	}
 
-    public void setTeaser(String teaser) {
-        this.teaser = teaser;
-    }
+	public void setImage(String image) {
+		this.image = image;
+	}
 
-    public Timestamp getCreated_at() {
-        return createdAt;
-    }
+	public String getTeaser() {
+		return teaser;
+	}
 
-    public void setCreated_at(Timestamp created_at) {
-        this.createdAt = created_at;
-    }
+	public void setTeaser(String teaser) {
+		this.teaser = teaser;
+	}
+
+	public Timestamp getCreated_at() {
+		return createdAt;
+	}
+
+	public void setCreated_at(Timestamp created_at) {
+		this.createdAt = created_at;
+	}
 }
-

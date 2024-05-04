@@ -4,64 +4,64 @@ import java.sql.Timestamp;
 
 public class Message {
 
-    private Integer id;
+	private Integer id;
 
-    private User user;
+	private User user;
 
-    private GlobalRoom room;
+	private GlobalRoom room;
 
-    private String body;
-    
-    private String link;
+	private String body;
 
-    private Timestamp createdAt;
+	private String link;
 
-    // Constructors, getters, and setters
-    public int getId() {
-        return id;
-    }
+	private Timestamp createdAt;
 
-    public void setId(int id) {
-        this.id = id;
-    }
+	// Constructors, getters, and setters
+	public int getId() {
+		return id;
+	}
 
-    public int getUserId() {
-        return userId;
-    }
+	public void setId(int id) {
+		this.id = id;
+	}
 
-    public void setUserId(int userId) {
-        this.userId = userId;
-    }
+	public int getUserId() {
+		return userId;
+	}
 
-    public int getRoomId() {
-        return roomId;
-    }
+	public void setUserId(int userId) {
+		this.userId = userId;
+	}
 
-    public void setRoomId(int roomId) {
-        this.roomId = roomId;
-    }
+	public int getRoomId() {
+		return roomId;
+	}
 
-    public String getBody() {
-        return body;
-    }
+	public void setRoomId(int roomId) {
+		this.roomId = roomId;
+	}
 
-    public void setBody(String body) {
-        this.body = body;
-    }
+	public String getBody() {
+		return body;
+	}
 
-    public String getLink() {
-        return link;
-    }
+	public void setBody(String body) {
+		this.body = body;
+	}
 
-    public void setLink(String link) {
-        this.link = link;
-    }
+	public String getLink() {
+		return link;
+	}
 
-    public Timestamp getCreatedAt() {
-        return createdAt;
-    }
+	public void setLink(String link) {
+		this.link = link;
+	}
 
-    public void setCreatedAt(Timestamp createdAt) {
-        this.createdAt = createdAt;
-    }
+	public Timestamp getCreatedAt() {
+		return createdAt;
+	}
+
+	public void setCreatedAt(Timestamp createdAt) {
+		this.createdAt = createdAt;
+	}
 }

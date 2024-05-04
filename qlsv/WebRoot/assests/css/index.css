@@ -1,0 +1,25 @@
+	.form-group {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 5px;
+    }
+    .form-group label {
+    	width: 90px;
+        margin: 0;
+    }
+    .form-group input {
+    	margin: 5px;
+    }
+    .buttons {
+        display: flex; 
+        flex-direction: row;
+        margin-top: 10px;
+    }
+    .buttons input {
+        margin: 0 20px;
+    }
+    .form-title {
+        margin-left: 100px;
+        color: blue;
+    }
